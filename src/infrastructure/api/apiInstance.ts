@@ -1,12 +1,10 @@
-import axios, { AxiosInstance } from "axios";
+import axios, { AxiosInstance } from 'axios';
 
 export default class Api {
-  axiosInstance(): AxiosInstance {
-    const axiosInstance = axios.create({
-      baseURL: 'localhost:3000',
-      responseType: "json",
-    });
+  axiosInstance(auth = false): AxiosInstance {
 
-    return axiosInstance;
+    return axios.create({
+      baseURL: 'http://localhost:8080',
+    });
   }
 }

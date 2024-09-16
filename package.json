@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.0",
     "@mui/material": "^6.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -14,6 +15,7 @@
     "@types/react": "^18.3.6",
     "@types/react-dom": "^18.3.0",
     "axios": "^1.7.7",
+    "front_project_3": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
@@ -46,7 +48,6 @@
     ]
   },
   "devDependencies": {
-    "@types/axios": "^0.14.0",
-    "@types/react-router-dom": "^6.26.2"
+    "@types/axios": "^0.14.0"
   }
 }
